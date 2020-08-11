@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+/* -------------------- 共通部分 -------------------- */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 80%;
+}
+
+/* -------------------- wrapper -------------------- */
+#wrapper {
+    width: 1033px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #FFF;
+}
+
+/* -------------------- header -------------------- */
+#header  {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+#header h1 {
+    margin: 0;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    font-size: 36px;
+}
+
+#header p {
+    margin: 0;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    font-size: 18px;
+    color: #777;
+}
+
+.title {
+    width: 25%;
+}
+
+#header nav {
+    width: 75%;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    font-size: 18px;
+    color: #777;
+}
+
+.main-nav {
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+/*.main-nav li a:last-child {*/
+/*    margin-left: 50px;*/
+/*}*/
+
+.main-nav a {
+    color: #432;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    color: #0bd;
+}
+.main-nav li:first-child a:hover {
+    color: #432;
+}
+
+.search {
+    width: 3%;
+    margin-top: 4%;
+}
+
+/* -------------------- main -------------------- */
+.main {
+    margin-top: 8%;
+    font-size: 27px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #777;
+}
+
+.main p{
+    margin-bottom: 10%;
+}
+    
+.date {
+    text-decoration: none;
+    margin-top: 8%;
+    font-size: 18px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #aaa;
+}
+
+.date a:hover {
+    color: red;
+}
+
+.subtitle {
+    text-decoration: none;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #000;
+}
+
+.lead {
+    font-size: 17px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #777;
+    margin-left: 32%;
+    margin-bottom: 8%;
+    
+}
+
+/* -------------------- page -------------------- */
+#next {
+    display: flex;
+}
+
+#next li {
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 10%;
+    padding: 10px 20px;
+    border: solid 1px #ddd;
+    list-style: none;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    font-size: 17px;
+}
+
+#next li a {
+    text-decoration: none;
+    color: #777;
+}
+
+.background-color {
+    margin-left: 335px;
+    background-color: #eee;
+    font-weight: 700;
+}
+
+hr {
+    margin-bottom: 5%;
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+    border: none;
+}
+
+/* -------------------- information -------------------- */
+
+#information {
+    display:flex;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+#information a {
+    text-decoration: none;
+    color: #777;
+    font-size: 17px;
+    border-bottom: 1px solid #ddd;
+}
+
+.name {
+    display: flex;
+}
+
+.name img {
+    width: 100px;
+    height: 100px
+}
+
+.name h2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding : 0;
+}
+
+.sns {
+    margin-left: 120px;
+    margin-top: 0;
+}
+
+.side1 {
+    width: 32%;
+    height: 300px;
+}
+
+.side2 {
+    width: 28%;
+}
+
+.side3 {
+    width: 18%;
+}
+
+.side4 {
+    width: 22%;
+}
+
+.title {
+    color: #000; 
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.Sentence1 {
+    width: 74%;
+    margin-top: 10%;
+    font-size: 18px;
+    color: #777;
+}
+
+.Sentence2 {
+    width: 74%;
+    margin-top: 10%;
+    font-size: 16px;
+    color: #777;
+}
+
+.date {
+    margin-top: 0;
+    color: #777; 
+    font-size: 15px;
+}
+
+/* -------------------- footter -------------------- */
+#footter p {
+    padding-left: 30%;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #939393;
+}
+
